@@ -60,17 +60,33 @@
 		8430E10524C004E00031C321 /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
-				8430E10624C004E00031C321 /* AppDelegate.swift */,
-				8430E10824C004E00031C321 /* SceneDelegate.swift */,
-				8430E10A24C004E00031C321 /*  .swift */,
+				848C794C2B044FD600ADF375 /* Delegates */,
+				848C794B2B044FBB00ADF375 /* Controllers */,
 				8430E10C24C004E00031C321 /* Main.storyboard */,
 				8430E10F24C004E20031C321 /* Assets.xcassets */,
 				8430E11124C004E20031C321 /* LaunchScreen.storyboard */,
 				8430E11424C004E20031C321 /* Info.plist */,
-				84C3007924C69CF900F08D24 /* PlaySoundsViewController.swift */,
-				84EB68CC24CE19AF007BDEAB /* playsoundsviewcontroller-audio.swift */,
 			);
 			path = PitchPerfect;
+			sourceTree = "<group>";
+		};
+		848C794B2B044FBB00ADF375 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84EB68CC24CE19AF007BDEAB /* playsoundsviewcontroller-audio.swift */,
+				84C3007924C69CF900F08D24 /* PlaySoundsViewController.swift */,
+				8430E10A24C004E00031C321 /*  .swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		848C794C2B044FD600ADF375 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				8430E10824C004E00031C321 /* SceneDelegate.swift */,
+				8430E10624C004E00031C321 /* AppDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
