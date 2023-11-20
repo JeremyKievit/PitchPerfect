@@ -11,6 +11,8 @@ import AVFoundation
 
 // MARK: PlaySoundsViewController: AVAudioPlayerDelegate
 
+// This extension of the PlaySoundsVC allows the main class to focus on audio playback while the extension focuses on handling the audio itself
+
 extension PlaySoundsViewController: AVAudioPlayerDelegate {
     
     // MARK: Alerts
@@ -30,6 +32,7 @@ extension PlaySoundsViewController: AVAudioPlayerDelegate {
     }
     
     // MARK: PlayingState
+    
     // Raw vaues corresponding to sender to sender tags
     enum PlayingState { case playing, notPlaying }
     

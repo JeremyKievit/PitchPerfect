@@ -14,7 +14,7 @@
 		8430E11324C004E20031C321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8430E11124C004E20031C321 /* LaunchScreen.storyboard */; };
 		8430E11A24C00C7D0031C321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8430E10C24C004E00031C321 /* Main.storyboard */; };
 		84C3007A24C69CF900F08D24 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3007924C69CF900F08D24 /* PlaySoundsViewController.swift */; };
-		84EB68CD24CE19AF007BDEAB /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB68CC24CE19AF007BDEAB /* playsoundsviewcontroller-audio.swift */; };
+		84EB68CD24CE19AF007BDEAB /* AudioHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB68CC24CE19AF007BDEAB /* AudioHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		8430E11224C004E20031C321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8430E11424C004E20031C321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C3007924C69CF900F08D24 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
-		84EB68CC24CE19AF007BDEAB /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
+		84EB68CC24CE19AF007BDEAB /* AudioHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +73,9 @@
 		848C794B2B044FBB00ADF375 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				84EB68CC24CE19AF007BDEAB /* playsoundsviewcontroller-audio.swift */,
-				84C3007924C69CF900F08D24 /* PlaySoundsViewController.swift */,
 				8430E10A24C004E00031C321 /* RecordSoundsViewController.swift */,
+				84C3007924C69CF900F08D24 /* PlaySoundsViewController.swift */,
+				84EB68CC24CE19AF007BDEAB /* AudioHandler.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -161,7 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8430E10B24C004E00031C321 /* RecordSoundsViewController.swift in Sources */,
-				84EB68CD24CE19AF007BDEAB /* playsoundsviewcontroller-audio.swift in Sources */,
+				84EB68CD24CE19AF007BDEAB /* AudioHandler.swift in Sources */,
 				8430E10724C004E00031C321 /* AppDelegate.swift in Sources */,
 				84C3007A24C69CF900F08D24 /* PlaySoundsViewController.swift in Sources */,
 				8430E10924C004E00031C321 /* SceneDelegate.swift in Sources */,
