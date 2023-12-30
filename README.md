@@ -16,7 +16,7 @@ UIKit
 AVFoundation
 
 # Installation
-Download the zip folder and open the file PitchPerfect.xcodeproj in Xcode.
+Download the zip folder and open the file "PitchPerfect.xcodeproj" in Xcode.
 
 # License
 All code is original and was written by me. The project was developed as part of the iOS Developer Nanodegree Program, in accordance with the [project rubric](https://www.google.com/url?q=https://docs.google.com/document/d/1LlcUT90j-ItbRQpB3ivLHwjP-KgKOUdoOLpz0WirpSo/pub&sa=D&source=docs&ust=1699838777346607&usg=AOvVaw2gJNJaxWYVNDvYQwU5k8yr).
